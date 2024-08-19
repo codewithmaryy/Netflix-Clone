@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 500vh;
+}
+
+.main {
+    background-image: url(assests/PK-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_09ca4e44-1c7b-48e0-b4b6-8ec41c04815e_large.jpg);
+    height: 120vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 120vh;
+    opacity: 0.44;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vw;
+
+    align-items: center;
+    margin: auto;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
+
+nav img {
+    color: red;
+    width: 154px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.text {
+    font-family: "Martel Sans", sans-serif;
+
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 24px;
+    padding: 105px;
+    padding-bottom: 0px;
+
+
+}
+
+.text> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+}
+
+.text> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text> :nth-child(3) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(50, 45, 45);
+    position: relative;
+    top: -5px;
+}
+.btn{
+    padding: 4px 12px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 2px solid transparent;
+
+}
+.btn-bottom{
+    padding: 6px 25px;
+    text-align: left;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+.btn-bottom-text{
+    padding-left: 16px;
+   padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 134px;
+    background-color: rgb(23 23 23 / 62%);
+    text-align: left;
+    justify-content: left;
+    border: 1px solid rgb(245, 234, 234, 0.5);
+    border-radius: 4px;
+    text-align: left;
+    color: white;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 46px;
+}
+.secImg img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+.secImg{
+    position: relative;
+    
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 3px;
+    width: 430px;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 22px;
+    
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.fourth > div :nth-child(2){
+    font-size: 21px;
+    
+}
+.third{
+    width: 65vw;
+    height: 60vh;
+    
+}
+section.third > div{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: flex-start;
+    justify-content: left;
+    color: white;
+    padding: 46px;
+    margin: auto;
+}
+section.third > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.third > div :nth-child(2){
+    font-size: 22px;
+    
+}
+.faq{
+    color: white;
+    text-align: center;
+    padding: 45px;
+}
+.faqbox:hover{
+background-color: #414141;
+}
+.faqbox{
+    transition: all 1s ease-out;
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 24px;
+    max-width:  65vw;
+    margin: 7px auto;
+    font-size: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+    row-gap: 4px;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 44px;
+    margin-left: 72px;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #a8b3b3;
+    max-width: 60vw;
+    margin: auto;
+    padding: 25px;
+    grid-template-columns: 193px 235px 193px 141px;
+    column-gap: 44px;
+   
+   
+}
+.sp{
+    text-decoration: underline;
+    color: #a8b3b3;
+    padding: 24px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+    
+}
+ footer a{
+    color: #a8b3b3;
+    text-decoration: underline;
+}
+select{
+    width: 95px;
+    height: 32px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    
+    padding: 2px 2px 2px 2px;
+}
+ .nf{
+    text-decoration: none;
+}
+.Ready{
+    font-size: 21px;
+    padding: 25px;
+}
+ .meri{
+    padding: 15px;
+}
+h2{
+    font-size: 50px;
+}
+@media screen and (max-width: 1300px) {
+    .footer{ 
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0px;
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+    .text> :first-child {
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .text> :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .text> :nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    nav{
+        max-width: 88vw;
+
+    }
+    nav img{
+        width: 112px;
+    }
+    .text{
+        height: 48%;
+        padding: 46px;
+    }
+    .main{
+        height: 56vh;
+    }
+    .btn-bottom{
+        margin: 6px 50px;
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+    .third{
+        gap: 25px;
+        height: 30vh;
+    }
+    section.third > div{
+        
+        width: 82vw;
+       
+    }
+    section.third > div :nth-child(1){
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    section.third > div :nth-child(2){
+        font-size: 15px;
+        
+    }
+    .secImg{
+        height: 330px;
+        
+    }
+    .secImg img{
+        width: 368px;
+       height: 273px;
+        
+    }
+    .secImg video{
+width: 313px;
+    }
+    section.second > div :nth-child(1){
+        font-size: 26px;
+    }
+    section.second > div :nth-child(2){
+        font-size: 17px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    footer{
+        margin-left: 7px;
+        max-width: 83vw;
+    }
+    .footer{
+        max-width: 92vw;
+    }
+    .Ready{
+        font-size: 16px;
+        padding: 25px;
+    }
+    .meri{
+        padding: 2px;
+        margin-top: 12px;
+    }
+}
+
+
