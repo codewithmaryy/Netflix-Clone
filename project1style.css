@@ -362,6 +362,9 @@ width: 313px;
         padding: 2px;
         margin-top: 12px;
     }
+    .box{
+        height: 56vh;
+    }
 }
 
 
